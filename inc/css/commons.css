@@ -1,0 +1,17 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/9/95/Big_Pine_landscape.jpg) no-repeat center/cover fixed;
+}
+
+header,
+section,
+footer {
+	margin: 0 auto 10px;
+	max-width: 1200px;
+	background: rgba(255,255,255,.8);
+}
