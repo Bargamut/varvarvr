@@ -14,4 +14,71 @@ footer {
 	margin: 0 auto 10px;
 	max-width: 1200px;
 	background: rgba(255,255,255,.8);
+  box-sizing: border-box;
+}
+
+a {
+	color: #d0e9ea;
+}
+
+header {
+	padding-top: 10px;
+}
+
+footer {
+	padding-bottom: 10px;
+}
+
+header, footer {
+	background: #003f41 url(/inc/img/bg/varvar_bg_371.png) no-repeat top/contain;
+	color: #fff;
+}
+
+header > nav,
+footer > nav {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header a,
+footer a {
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+header nav a,
+footer nav a {
+	padding: 15px 0;
+}
+
+header nav a:hover,
+footer nav a:hover {
+	background: rgba(4, 87, 91, .5);
+	color: #fff;
+}
+
+header > .logo img {
+	margin: 0 auto;
+	display: block;
+}
+
+main > section {
+	padding: 10px;
+}
+main h2 {
+	margin: 5px 0;
+  color: #001e1f;
+}
+
+footer { margin-bottom: 0; }
+footer .author { padding-top: 15px; display: block; text-align: center;}
+footer .author a { margin-left: 10px; }
+footer .author a::before { content: ''; margin-right: 7px; width: 30px; height: 30px; display: inline-block; background: url(//bargamut.ru/auth_label/uazgazservis/logo.jpg) no-repeat center; background-size: cover; vertical-align: middle;
+    border-radius: 70%;
+    -moz-border-radius: 70%;
+    -o-border-radius: 70%;
+    -webkit-border-radius: 70%;
 }
