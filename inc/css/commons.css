@@ -76,7 +76,7 @@ main h2 {
 footer { margin-bottom: 0; }
 footer .author { padding-top: 15px; display: block; text-align: center;}
 footer .author a { margin-left: 10px; }
-footer .author a::before { content: ''; margin-right: 7px; width: 30px; height: 30px; display: inline-block; background: url(//bargamut.ru/auth_label/uazgazservis/logo.jpg) no-repeat center; background-size: cover; vertical-align: middle;
+footer .author a.bargamut::before { content: ''; margin-right: 7px; width: 30px; height: 30px; display: inline-block; background: url(//bargamut.ru/auth_label/uazgazservis/logo.jpg) no-repeat center; background-size: cover; vertical-align: middle;
     border-radius: 70%;
     -moz-border-radius: 70%;
     -o-border-radius: 70%;
